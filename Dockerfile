@@ -1,4 +1,4 @@
-FROM node:20(last pushed 19 hours ago)
+FROM node:20 
 
 # Habilitar Corepack para Yarn
 RUN corepack enable && corepack prepare yarn@stable --activate
